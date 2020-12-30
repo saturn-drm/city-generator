@@ -1,11 +1,47 @@
 <html lan='en'>
   <head>
-    <meta http-equiv="refresh" content="5;url=https://www.zmei.moe" />
+    <meta http-equiv="refresh" content="5;url=https://www.zmei.moe/postshtml/00projects/2020-12-30-city-generator.html" />
+    <style>
+      body {
+        background-image: url(01cover.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .flexcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      .mainwords {
+        background-color: rgba(255, 252, 249, .75);
+        box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        padding: 50px;
+        border-radius: 20px;
+        border: 1px solid #34090f;
+      }
+    </style>
   </head>
   <body>
-    <h1 style="text-align:center;">The page is under construction.</h1>
-    <p style="text-align:center;">View the sources on <a href="https://github.com/saturn-drm/city-generator">GitHub</a></p>
-    <p style="text-align:center;">View the video on <a href="https://youtu.be/svBy35v-1dQ">Youtube</a></p>
-    <p style="text-align:center;">The page will redirect to a new address in 5 seconds.</p>
+    <div class="flexcontainer">
+      <div class="mainwords">
+        <h1 style="text-align:center;">PARAMETRIC CITY GENERATOR</h1>
+        <p style="text-align:center;">View the sources on <a href="https://github.com/saturn-drm/city-generator">GitHub</a></p>
+        <p style="text-align:center;">View the video on <a href="https://youtu.be/svBy35v-1dQ">Youtube</a></p>
+        <p style="text-align:center;">The page will redirect to a new address in <span>5</span> seconds.</p>
+      </div>
+    </div>
+
+    <script class="timer">
+      var x = document.querySelector('span');
+      setInterval(updatetime, 1000);
+      function updatetime() {
+        x.innerText = x.innerText - 1;
+      }
+    </script>
   </body>
 </html>
