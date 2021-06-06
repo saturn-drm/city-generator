@@ -6,3 +6,17 @@
 > 
 > Zihan Mei, Yue (Pam) Pan, Jack Cheng, Jose Luis Garcia del Castillo Lopez
 
+## Contents
+
+### index.html
+
+Homepage for the project.
+
+### codeGH
+
+The `.3dm` and `.gh` files.
+
+### codeCS
+
+The code in `.cs` format.
+
