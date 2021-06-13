@@ -10,7 +10,7 @@
 
 ### index.html
 
-Homepage for the project.
+[Homepage](https://www.zmei.moe/city-generator/) for the project.
 
 ### codeGH
 
