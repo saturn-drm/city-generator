@@ -20,6 +20,3 @@ The `.3dm` and `.gh` files.
 
 The code in `.cs` format.
 
-### A Typical Usage
-
-![cell](cell.png)
