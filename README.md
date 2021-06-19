@@ -14,9 +14,11 @@
 
 ### codeGH
 
-The `.3dm` and `.gh` files.
+* `CityGenerator.gha` - Compressed Grasshopper plugin, contains 5 components, each for one step.
+* `ParametricCityGeneratorV3.0.3dm` - The input geometry demo.
+* `ParametricCityGeneratorV3.1.gh` - The Grasshopper script demo, contains 5 steps and instructions.
 
 ### codeCS
 
-The code in `.cs` format.
+Source code for all the 5 components in `.cs` format.
 
